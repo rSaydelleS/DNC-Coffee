@@ -1,0 +1,82 @@
+.visible {
+    width: 10rem;
+    height: 3rem;
+    font-size: 17px;
+    font-weight: bold;
+    color: #F6F5FB;
+    background-color: #2A3342;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 1px 3px;
+    display: none;
+}
+nav {
+    margin-bottom: 40px;
+}
+.card-text{
+    margin-bottom: 2rem;
+}
+.modal-div {
+    background-color: rgba(217, 217, 217, 0.7);;
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    
+}
+.modal-window {
+    background-color: #F6F5FB;
+    color: #000000;
+    text-align: center;
+    border-radius: 20px;
+    width: 700px;
+    height: 580px;
+    margin-left: 30%;
+    margin-top: 160px;
+}
+.modal-window h1{
+    margin-top: 80px;
+    left: 640px;
+    font-weight: 300px;
+    font-size: 39px;
+}
+.modal-window p {
+    left: 580px;
+    margin-top: 100px;
+    font-weight: 300;
+    font-size: 23px;
+}
+#btn-exit {
+    margin-top: 100px;
+    left: 640px;
+    width: 215px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 18px;
+    background: #2A3342;
+    color: #F6F5FB;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+.btn-exit {
+    align-items: end;
+    margin-top: 10px;
+    margin-left: 640px;
+    right: 30px;
+    width: 15px;
+    height: 15px;
+    color: #000000;
+    text-align: center;
+    padding: 0;
+    border: 1.5px none #000000;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    font-size: 10px;
+    cursor: pointer;
+}
+.open {
+    display: block;
+}
